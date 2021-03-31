@@ -95,12 +95,6 @@ class _CurrenciesState extends State<Currencies> {
   }
 
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     _get().then((data) {
       currencies = data;
@@ -222,11 +216,6 @@ class _CalculateState extends State<Calculate> {
     }
   }
 
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
